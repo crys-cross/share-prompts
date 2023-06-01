@@ -2,7 +2,7 @@ import { Schema, model, models } from "mongoose";
 
 const PromptSchema = new Schema({
   creator: {
-    type: mongoose.Schema.Type.ObjectId,
+    type: Schema.Type.ObjectId,
     ref: "User",
   },
   prompt: {
