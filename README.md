@@ -1,3 +1,19 @@
+Checklist:
+[] Implement Search(under feed component, add search states)
+
+- search by prompt content
+- search by tag
+- search by username
+
+[] Implement Click on tag(same above)
+
+- click on tag to put on search.
+
+[] Implement View other profiles
+
+- can click username, photo or email
+- /profile/[id]/name
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
